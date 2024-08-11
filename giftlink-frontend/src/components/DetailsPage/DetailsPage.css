@@ -1,36 +1,44 @@
-/* Style for image placeholder */
-.image-placeholder-large {
-    /* Task 1 styling */
-    {{insert code here}}
+.register-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for product image */
-.product-image-large {
-    /* Task 2 styling */
-    {{insert code here}}
+.register-card .form-label {
+    font-weight: 600;
 }
 
-/* Style for 'no image available' placeholder */
-.no-image-available-large {
-    /* Task 3 styling */
-    {{insert code here}}
+.register-card input {
+    border-radius: 0.25rem;
 }
 
-/* Style for card header */
-.card-header {
-    /* Task 4 styling */
-    {{insert code here}}
+.register-card .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
 }
 
-/* Style for details title */
-.details-title {
-    /* Task 5 styling */
-    {{insert code here}}
+.register-card .btn-primary {
+    background-color: #0056b3;
+    border: none;
 }
 
-/* Style for comments section */
-.comments-section {
-    /* Task 6 styling */
-    {{insert code here}}
+.register-card .btn-secondary {
+    background-color: #dc3545;
+    border: none;
 }
 
+.register-card .text-primary {
+    color: #0056b3;
+}
+
+.register-card .text-secondary {
+    color: #6c757d;
+}
+
+/* Additional styles */
+a.text-primary:hover {
+    text-decoration: underline;
+}
+
+a.text-secondary:hover {
+    text-decoration: underline;
+}
